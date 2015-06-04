@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{902BEA54-0FB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenTask2", "ScreenTask2\ScreenTask2.csproj", "{2358D295-C115-4380-89FF-BF432DA726DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{25DCEC31-1843-416C-B8D7-E26F313ED129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenTask2.Test", "ScreenTask2.Test\ScreenTask2.Test.csproj", "{9E594A3B-FAD7-4BEA-BDC6-3465A24196C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{2358D295-C115-4380-89FF-BF432DA726DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2358D295-C115-4380-89FF-BF432DA726DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2358D295-C115-4380-89FF-BF432DA726DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E594A3B-FAD7-4BEA-BDC6-3465A24196C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E594A3B-FAD7-4BEA-BDC6-3465A24196C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E594A3B-FAD7-4BEA-BDC6-3465A24196C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E594A3B-FAD7-4BEA-BDC6-3465A24196C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2358D295-C115-4380-89FF-BF432DA726DA} = {902BEA54-0FB2-4BC3-BCC0-0401D2BF6083}
+		{9E594A3B-FAD7-4BEA-BDC6-3465A24196C5} = {25DCEC31-1843-416C-B8D7-E26F313ED129}
 	EndGlobalSection
 EndGlobal
